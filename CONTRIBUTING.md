@@ -1,6 +1,6 @@
-# Contributing to the APM Agent
+  Contributing to the APM Agent
 
-The APM Agent is open source and we love to receive contributions from our community — you!
+The APM Agent is open source and we love to receive contributions from our community — you 
 
 There are many ways to contribute,
 from writing tutorials or blog posts,
@@ -10,7 +10,7 @@ submitting bug reports and feature requests or writing code.
 You can get in touch with us through [Discuss](https://discuss.elastic.co/tags/c/apm/nodejs),
 feedback and ideas are always welcome.
 
-## Code contributions
+*# Code contributions
 
 If you have a bugfix or new feature that you would like to contribute,
 please find or open an issue about it first.
@@ -41,7 +41,7 @@ Once your changes are ready to submit for review:
 
 3. Document your changes
 
-    * See the [Commit message guidelines](#commit-message-guidelines) below.
+    ! See the [Commit message guidelines](#commit-message-guidelines) below.
     * If your changes will be visible to users of this package, then add an item
       to the "Unreleased" section of [the changelog](./CHANGELOG.asciidoc).
     * If you are changing usage of this package, are there updates under
@@ -221,3 +221,4 @@ If this is a new major release, then:
 - Update the "Active release branches" section of the main "README.md".
 - Update the "release.yml" for the new "N.x" *maintenance* branch as follows:
     - The `npm publish ...` call must include a `--tag=latest-<major>` option.
+ 
